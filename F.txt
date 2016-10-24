@@ -1,1 +1,55 @@
+Readme
 
+数据字典，以条目方式呈现，统一与该条目相关的数据，用于快速检索和知识积累。
+涉及到图片信息，以URL方式提供，视屏图片统一存放于或者引用于互联网
+注意事项：
+1. 条目分隔符=============================================================
+2. 条目展现以英文为主，方便本地快速检索
+3. 涉及保密安全信息的条目，进行备注后，数据字典中展现，仅作引用
+4. 引用图片仅提供URL
+5. 同一类条目无顺序摆放.
+6. 每行长度以不超过80字符为准.
+7. 版权信息归本人所有，如需引用，请先联系作者（weihj1999@gmail.com）,如果
+有内容侵犯了您的版权，同样请联系作者删除。
+
+==========================================================================
+
+Federated Identity（联邦认证）:
+    Federated Identity is a mechanism to establish trusts between Identity Providers and 
+    Service Providers (SP), in this case, between Identity Providers and the services provided 
+    by an OpenStack Cloud.
+    联邦认证提供了一种机制，在身份服务商（IdP）和服务提供商（SP）之间建立信任关系。 这里就是IdP和由openstack
+    云平台提供的服务商。
+    Federated Identity provides a way to securely use existing credentials to access cloud 
+    resources such as servers, volumes, and databases, across multiple endpoints provided in 
+    multiple authorized clouds using a single set of credentials, without having to provision 
+    additional identities or log in multiple times. The credential is maintained by the user’s 
+    Identity Provider.
+    联邦认证日共了一个方法，是的已经存在认证用户来安全的访问云资源，比如说服务器，存储卷，以及数据库，使用一套
+    认证，在多个认证云系统中，不需要提供额外身份认证信息，或者多次登录。用户凭据有Id提供。
+    
+    需要解释几个概念：
+    
+    SP： Service Provider，服务提供方，只提供服务，依赖IdP认证用户的身份。
+    IdP： Identity Provider，断言方（Assetion），用于认证用户身份
+    Assertion Protocol： 认证（断言）协议， SP和IdP完成认证用户身份所用的协议， 常用有SAML， OpenID，
+    Oauth等。
+    
+    SAML assertion: SAM断言，  包含了由IdP提供的用户的的信息，表示一个用户已经被认证了。 
+    
+    Mapping：添加一套规则来把联邦协议的属性映射成身份API对象，一个IdP针对一种协议，只能指定一套规则。 
+    
+    Protocol：包含了决定使用哪一种映射规则来处理有IdP产生的请求。 一个Id可以支持多种协议，有三种 联邦认证使用
+    的协议， OpenID， SAML和OAuth
+    
+    Unscoped token:通过提供一个project ID或者一个domain ID，允许用户和身份服务进行认证，为一个scope token
+    来交换unscope token
+    
+    Scoped token：允许一个用户使用所有Openstack服务，除了身份服务之外。
+    
+    
+    详细信息参考：http://www.cnblogs.com/allcloud/p/5150200.html
+    
+    
+    
+    
