@@ -1,1 +1,47 @@
 
+Readme
+数据字典，以条目方式呈现，统一与该条目相关的数据，用于快速检索和知识积累。
+涉及到图片信息，以URL方式提供，视屏图片统一存放于或者引用于互联网
+注意事项：
+1. 条目分隔符=============================================================
+2. 条目展现以英文为主，方便本地快速检索
+3. 涉及保密安全信息的条目，进行备注后，数据字典中展现，仅作引用
+4. 引用图片仅提供URL
+5. 同一类条目无顺序摆放.
+6. 每行长度以不超过80字符为准.
+7. 版权信息归本人所有，如需引用，请先联系作者（weihj1999@gmail.com）,如果
+有内容侵犯了您的版权，同样请联系作者删除。
+
+==========================================================================
+
+WAF 
+    Web应用程序防火墙, 安全网关；Web应用网关；Web应用防火墙
+    Web应用防火墙是通过执行一系列针对HTTP/HTTPS的安全策略来专门为Web应用提供保护的一款产品。WEB应用防火墙
+    是集WEB防护、网页保护、负载均衡、应用交付于一体的WEB整体安全防护设备。它集成全新的安全理念与先进的创新架
+    构，保障用户核心应用与业务持续稳定的运行。
+    A web application firewall (WAF) is an appliance, server plugin, or filter that applies a 
+    set of rules to an HTTP conversation. Generally, these rules cover common attacks such as 
+    cross-site scripting (XSS) and SQL injection. By customizing the rules to your application, 
+    many attacks can be identified and blocked. The effort to perform this customization can be 
+    significant and needs to be maintained as the application is modified.
+    
+    应用协议：
+    安全网关在应用层和网络层上面都有防火墙的身影，在第三层上面还能看到VPN作用。防毒墙这种安全网关作用在第二层。
+    根据七层的级别限制，高等级协议能够掌管低等级协议的原则，安全网关的发展正在走向高等级协议的路线。
+    
+    网关与路由器的区别：
+    网关是访问路由器的IP，其他的电脑必须和网关一个IP段才能访问路由器，比如说路由器的IP是192.168.0.1（这个就是网关）
+    也是进路由器必须的地址，其他的主机也必须是192.168.0.X（2—254之间任意一个数字）这样才能访问路由器也就是说这样才
+    能上网，电脑上的网关地址就要填写192.168.0.1
+    
+    常见应用环境：
+    集中存储安全体系包含如下的安全产品部件：集中存储安全控制网关、安全管理终端。
+    网络安全集中存储系统拓扑环境图
+    安全管理终端：对于安全控制网关进行配置管理，实现包括访问IP地址、存储资源、用户黑白名单、用户资源访问控制列表（ACL）
+    的设置。集中存储安全控制网关：对外提供可选的安全访问控制、用户身份认证、安全审计能力和透明的存储加解密能力。
+    
+    一般WAF应该是Web Application Firewall，但是在实际交流中经常有人把防火墙叫网关，防火墙和路由器有时候都是网关设备。
+    WAF的全称为Web Application Firewall，web application gateway为同义词，可以理解为省略了security，因为很多时候
+    防火墙又被叫做安全网关。
+    
+    
