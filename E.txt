@@ -14,7 +14,7 @@ Readme
 
 ==========================================================================
 
-ECS：
+EVS：
     云硬盘定义：Elastic Volume Service (EVS) disks are a type of virtual block storage devices 
     that use the distributed architecture and can be elastically expanded. You can operate EVS 
     disks online. The method for using EVS disks is the same as that for using common server 
