@@ -1,1 +1,56 @@
+Readme
+数据字典，以条目方式呈现，统一与该条目相关的数据，用于快速检索和知识积累。
+涉及到图片信息，以URL方式提供，视屏图片统一存放于或者引用于互联网
+注意事项：
+1. 条目分隔符=============================================================
+2. 条目展现以英文为主，方便本地快速检索
+3. 涉及保密安全信息的条目，进行备注后，数据字典中展现，仅作引用
+4. 引用图片仅提供URL
+5. 同一类条目无顺序摆放.
+6. 每行长度以不超过80字符为准.
+7. 版权信息归本人所有，如需引用，请先联系作者（weihj1999@gmail.com）,如果
+有内容侵犯了您的版权，同样请联系作者删除。
 
+==========================================================================
+
+VoLTE：
+    LTE网络语音业务， voice over Long Term Evolution
+    VoLTE是基于IMS的语音业务。IMS由于支持多种接入和丰富的多媒体业务，成为全IP时代的核心网标准架构。经历
+    了过去几年的发展成熟后，如今IMS已经跨越裂谷，成为固定话音领域VoBB、PSTN网改的主流选择，而且也被3GPP、
+    GSMA确定为移动语音的标准架构。VoLTE即Voice over LTE，它是一种IP数据传输技术，无需2G/3G网，全部业
+    务承载于4G网络上，可实现数据与语音业务在同一网络下的统一。换言之，4G网络下不仅仅提供高速率的数据业务，
+    同时还提供高质量的音视频通话，后者便需要VoLTE技术来实现。
+    
+    VoLTE业务发展节奏 
+    第一阶段：LTE热点覆盖热点，出现pre-VoLTE应用 LTE初期以热点覆盖为主，主要面向数据卡、平板电脑等移动宽
+    带数据应用，但也会出现一些早期的LTE语音应用。一是基于软终端的语音业务，即“LTE数据卡+软终端+电脑”方式，
+    可以满足一些特定场景的语音需求，并为将来部署手机方式的VoLTE做准备，积累运营经验；二是“LTE CPE+固定话机”
+    方式，欧洲一些国家，如德国就采用这种方式为偏远地区用户提供宽带接入和话音服务；三是支持CSFB和SVLTE的早期
+    LTE手机，一些运营商已经发布了这种过渡应用，如Verizon宣布将支持SVLTE，而AT&T将支持CSFB。
+    
+    第二阶段：LTE区域连续覆盖区域，进入VoLTE的发展期 在这一阶段运营商扩大了LTE覆盖水平，达到可以运营语音业务
+    的条件，特别是在城市和人口密集地区；同时，LTE智能手机大量出现，推动了VoLTE的发展。 运营商将在这一阶段商用
+    基于IMS的VoLTE业务。但这之前，运营商需要预留较长的准备时间。因为一方面，VoLTE涉及较多新技术，需要必要的测
+    试和试验；另一方面，IMS的部署、集成需要一定周期，现网一些设备如MSC、HLR、IT系统可能需要相应的改造或升级。
+    我们认为，运营商提前一年甚至更长时间着手准备VoLTE是有必要的。 另外，这一阶段的LTE覆盖还是有局限的，运营商
+    需要利用传统CS覆盖的广度和深度来提供无缝的语音业务，即LTE与CS的互操作，其中有两个主要技术点：1、LTE用户漫
+    游到CS域后的业务提供方式，有两种可选方案，一种是完全由MSC处理语音业务，另一种是通过MSC接入IMS域以提供语音
+    业务，后者就是3GPP定义的ICS（IMS Centralized Service）架构，这需要升级现网MSC成为EMSC（增强的MSC）；
+    2、通话中的LTE到CS的切换，3GPP为此定义了SRVCC（Single Radio Voice Call Continuity）技术。 
+    
+    第三阶段：LTE全覆盖，VoLTE成为主流应用 这一阶段LTE覆盖达到相当完善的程度，或LTE和其他无线宽带技术如HSPA组成
+    无缝网络，使得移动宽带语音应用成为主流，传统CS将会被逐渐取代，当然，这是一个相当长的过程。
+    
+    Voice Quality
+    To ensure compatibility, 3GPP demands at least AMR-NB codec (narrow band), but the recommended 
+    speech codec for VoLTE is Adaptive Multi-Rate Wideband, also known as HD Voice. This codec is 
+    mandated in 3GPP networks that support 16 kHz sampling.
+    
+    Fraunhofer IIS has proposed and demonstrated "Full-HD Voice", an implementation of the AAC-ELD 
+    (Advanced Audio Coding – Enhanced Low Delay) codec for LTE handsets. Where previous cell phone 
+    voice codecs only supported frequencies up to 3.5 kHz and upcoming wideband audio services branded 
+    as HD Voice up to 7 kHz, Full-HD Voice supports the entire bandwidth range from 20 Hz to 20 kHz. 
+    For end-to-end Full-HD Voice calls to succeed however, both the caller and recipient's handsets 
+    as well as networks have to support the feature.
+    
+    
