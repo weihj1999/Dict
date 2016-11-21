@@ -50,6 +50,8 @@ Federated Identity（联邦认证）:
     
     详细信息参考：http://www.cnblogs.com/allcloud/p/5150200.html
     
-    
+FusionStorage:
+    是华为ServerSAN解决方案的核心部件，是一个分布式存储软件，在通用86服务器上部署该软件把所有服务器的
+    本地硬盘组织成一个虚拟资源池，提供块存储功能。
     
     
